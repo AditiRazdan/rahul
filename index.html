@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="en"> 
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+      $(function () {
+  $('[data-toggle="popover"]').popover()
+})
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+    </script>
+      
+
+  </head>
+
+<!-- Navbar -->
+
+  <body data-spy="scroll" data-target="#website-navbar">
+    <nav id="website-navbar" class="navbar navbar-expand-md navbar-light bg-white sticky-top">
+    <div class="navbar-content">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#title-text">
+            Top of Page </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#newmovies-carousel">
+            Memories </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link drowdown-toggle" href="#" data-toggle="dropdown">
+            Message </a>
+          <div class="dropdown-menu dropdown-menu-right">
+            <a class="dropdown-item" href="#Aditi"> Aditi </a>
+          <div class="dropdown-divider"></div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link drowdown-toggle" href="#" data-toggle="dropdown">
+            Activities </a>
+          <div class="dropdown-menu dropdown-menu-right">
+            <a class="dropdown-item" href="#Singapore"> Singapore </a>
+          <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#Movies"> Nostalgic Movies </a>
+          <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#NewYork"> New York </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+    <div class="container">
+      <div class="row m-3" id="title-text">
+        <div class="col-md-12">
+          <br>
+          <!-- Title Jumbotron -->
+          <div class="jumbotron">
+            <div class="row">
+              <div class="col pt-5">
+              <h1 class="display-4"> Happy Birthday <span class="badge badge-primary"> Rahul! </span> </h1>
+              <h4> <span class="badge badge-secondary"> A card </span> you can never lose ❤️ </h4>
+              </div>
+              <div class="col-3">
+                <img src="icon.png" height="200px">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" id="main-picture">
+      <div class="col-md-12">
+        <div class="alert alert-info alert-dismissible fade show">
+          <button type="button" class="close" data-dismiss="alert"> &times; </button>
+          This site was created by Aditi to prove I'm better at coding
+        </div>
+
+        <!-- New Movies -->
+
+        <div id="newmovies-carousel" class="carousel slide" data-ride="carousel">
+          
+                <!--Carousel Items-->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src=1.png> 
+                    <div class="carousel-caption">
+                      <h1> Switzerland </h1>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src=3.png>
+                    <div class="carousel-caption">
+                      <h1> Graduation </h1>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src=5.png>
+                    <div class="carousel-caption">
+                      <h1> Indian Wok </h1>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src=4.png>
+                    <div class="carousel-caption">
+                      <h1> Finland </h1>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src=2.png>
+                    <div class="carousel-caption">
+                      <h1> Home </h1>
+                    </div>
+                  </div>
+                  
+        
+                      <!-- Carousel Controls -->
+          <a class="carousel-control-prev" href=#newmovies-carousel data-slide="prev">
+            <span class="fa fa-chevron-left"></span>
+          </a>
+          <a class="carousel-control-next" href=#newmovies-carousel data-slide="next">
+            <span class="fa fa-chevron-right"></span>
+          </a>
+
+          <!--Carousel Indicators-->
+          <ol class="carousel-indicators">
+            <li data-target="newmovies-carousel" data-slide-to="0"></li>
+            <li data-target="newmovies-carousel" data-slide-to="1"></li>
+            <li data-target="newmovies-carousel" data-slide-to="2"></li>
+            <li data-target="newmovies-carousel" data-slide-to="3"></li>
+            <li data-target="newmovies-carousel" data-slide-to="4"></li>
+          </ol>
+
+          <!-- Cinema Links -->
+
+          </div>
+          <div class="row mt-5" id="Cinemas">
+            <div class="col-md-6 text-center">
+              <img src="gv.jpg" 
+              alt="" style="width: 100px" class="m-3">
+            </div>
+      </div>
+    </div>
+
+
+  <div class="row p-5" id="Classics">
+    <div class="row py-3" id="Classics">
+      <div class="col-md-12 Classics">
+        <h2 class="Classics">
+          Things to do together </h2>
+
+    <div class="card-deck">
+        <div class="card bg-danger">
+
+
+          <div class="card-body">
+            <h4 class="card-title"> Singapore </h4>
+            <p class="card-text">
+              When you come back </p>
+          </div>
+        </div>
+
+        <div class="card bg-info">
+
+          <div class="card-body">
+            <h4 class="card-title"> New York </h4>
+            <p class="card-text">
+              When/if we visit </p>
+          </div>
+        </div>
+
+        <div class="card bg-success">
+
+          <div class="card-body">
+            <h4 class="card-title"> Movies to Remember </h4>
+            <p class="card-text">
+              The guide of movies that take you back </p>
+          </div>
+        </div>
+      </div>
+
+       <!-- Singapore -->
+    
+    <div class="row py-3" id="Singapore">
+      <div class="col-md-12">
+        <h1> <span class="badge badge-info"> Top Things to Do Here </span></h1>
+        <table class="table table-borderless">
+          <thead class="thead-dark">
+            <tr>
+              <th> No. </th>
+              <th class="w-50"> Activity </th>
+              <th> Links </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td> 1 </td>
+              <td> 
+                <a href="#Singapore" data-toggle="popover" data-container="body"
+                 data-content="Remembering holding the snake, feeding lions, watching the fire show while eating our Ben and Jerry's ice cream." 
+                 data-placement="right" title="Night Safari" data-trigger="hover">
+                 Night Safari
+                </a>
+              </td>
+              <td> <a href="https://www.mandai.com//en/ticketing/admission-and-rides/tickets-selection.html?cmp=sg|ns|acq|bau|sem|gg|ns_brand_la_lfit_always_on_conv_na|rsa|bau_ad_group&gad=1&gclid=Cj0KCQjwzdOlBhCNARIsAPMwjbya9BQyTCH4BFTbK2W7sRnzk4Dn6PjyUKTWi5RZ4jrZk_qjugayplYaAkCREALw_wcB&gclsrc=aw.ds" target="_blank"> Tickets </a> </td> 
+            </tr>
+            <tr>
+              <td> 2 </td>
+              <td> 
+                <a href="#Singapore" data-toggle="popover" data-container="body"
+                 data-content="Riding the luge, playing in the sands, screaming on roller coasters (you might be too scared but we'll get there), and doing the giant swing." 
+                 data-placement="right" title="Sentosa" data-trigger="hover">
+                  Sentosa
+                </a>
+              <td> <a href="https://www.sentosa.com.sg/en/things-to-do/attractions?gclid=Cj0KCQjwzdOlBhCNARIsAPMwjbwlBdB91xy2UKtOb6nicjVB5AhOPQ2pSvwEohQU1cXIjRyKCJyIftoaAlEQEALw_wcB&gclsrc=aw.ds" target="_blank"> Website</a> </td>
+            </tr>
+            <tr>
+              <td> 3 </td>
+              <td> 
+                <a href="#Singapore" data-toggle="popover" data-container="body"
+                 data-content="Walking along the picturesque views of the beach and ocean, riding our bikes along the path, and eating our fresh Indian Wok food after." 
+                 data-placement="right" title="East Coast Park" data-trigger="hover">
+                  East Coast Park
+                </a>
+              <td> <a href="https://www.nparks.gov.sg/gardens-parks-and-nature/parks-and-nature-reserves/east-coast-park" target="_blank"> Details </a> </td>
+            </tr>
+            <tr>
+              <td> 4 </td>
+              <td> 
+                <a href="#Singapore" data-toggle="popover" data-container="body"
+                 data-content="Walking to 313 to the bowling games while enjoying the competetive atmosphere."
+                 data-placement="right" title="Bowling" data-trigger="hover">
+                 Bowling
+                </a>
+              <td> <a href="https://kbowlingclub.com/?gclid=Cj0KCQjwzdOlBhCNARIsAPMwjbzRJOg-UIJJ4_BWvdsvpC0Iscw5awru2KHX-uPEUAV1IfXpKqE5J_waAv-oEALw_wcB" target="_blank"> Tickets </a> </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- New York -->
+    
+    <div class="row py-3" id="NewYork">
+      <div class="col-md-12">
+        <h1> <span class="badge badge-info"> Things to do in New York </span></h1>
+        <table class="table table-borderless">
+          <thead class="thead-dark">
+            <tr>
+              <th> No. </th>
+              <th class="w-50"> Activity </th>
+              <th> Links </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td> 1 </td>
+              <td> 
+                <a href="#NewYork" data-toggle="popover" data-container="body"
+                 data-content="This 50-minute sightseeing cruise from Pier 16 on John Street the absolute fastest way to get an up close view of Lady Liberty from the water." 
+                 data-placement="right" title="Statue of Liberty Super Express Cruise" data-trigger="hover">
+                 Statue of Liberty
+                </a>
+              </td>
+              <td> <a href="https://www.tripadvisor.com/AttractionProductReview-g60763-d11449825-New_York_City_Statue_of_Liberty_Super_Express_Cruise-New_York_City_New_York.html" target="_blank"> Tickets </a> </td>
+            </tr>
+            <tr>
+              <td> 2 </td>
+              <td> 
+                <a href="#NewYork" data-toggle="popover" data-container="body"
+                 data-content="Midtown Manhattan is home to one of the world's most famous theatre districts, with iconic musicals and well-loved plays staged live at over 40 theatres." 
+                 data-placement="right" title="Broadway" data-trigger="hover">
+                  Broadway
+                </a>
+              <td> <a href="https://www.broadway.com/?gclid=Cj0KCQjwzdOlBhCNARIsAPMwjbw-PCr2dfWM6GvLHjKl7LPEnFzXkdMQ9eRYPharRr4keK_L2sYc9EcaAgb9EALw_wcB" target="_blank"> Shows </a> </td>
+            </tr>
+            <tr>
+              <td> 3 </td>
+              <td> 
+                <a href="#NewYork" data-toggle="popover" data-container="body"
+                 data-content="Remember the hours together spent watching friends. Step inside the world of FRIENDS™ and explore set recreations, view original props and costumes, and shop at The FRIENDS™ Experience Store." 
+                 data-placement="right" title="Friends Tour" data-trigger="hover">
+                  Friends tour
+                </a>
+              <td> <a href="https://www.getyourguide.co.uk/the-friends-experience-new-york-l166837/new-york-city-the-friends-experience-t407879/" target="_blank"> Tickets </a> </td>
+            </tr>
+            <tr>
+              <td> 4 </td>
+              <td> 
+                <a href="#NewYork" data-toggle="popover" data-container="body"
+                 data-content="Experience Central Park by bike with this convenient bike rental, perfect for everyone from first-time visitors to NYC regulars. Traveling by bike enables you to see more than you can on foot. With a provided map and staff recommendations, you can explore the bike-friendly paths at your own pace and stop to admire sites along the way. Book ahead, as bike rentals often sell out for this classic New York adventure."
+                 data-placement="right" title="Central Park" data-trigger="hover">
+                 Central Park
+                </a>
+              <td> <a href="https://www.viator.com/tours/New-York-City/NYC-Central-Park-Bike-Rental/d687-5557BIKE" target="_blank"> Reservation </a> </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Movies -->
+    <div class="row py-3" id="Movies">
+      <div class="col-md-12">
+        <h1> <span class="badge badge-info"> Nostalgic Movies </span></h1>
+        <table class="table table-borderless">
+          <thead class="thead-dark">
+            <tr>
+              <th> No. </th>
+              <th class="w-50"> Movie </th>
+              <th> Genre </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td> 1 </td>
+              <td> 
+                <a href="#Movies" data-toggle="popover" data-container="body"
+                 data-content="Raj and Simran meet during a trip across Europe and the two fall in love. However, when Raj learns that Simran is already promised to another, he follows her to India to win her and her father over." 
+                 data-placement="right" title="Dilwale Dulhania Le Jayenge" data-trigger="hover">
+                 Dilwale Dulhania Le Jayenge
+                </a>
+              </td>
+              <td> Romance/Musical </td>
+            </tr>
+            <tr>
+              <td> 2 </td>
+              <td> 
+                <a href="#Movies" data-toggle="popover" data-container="body"
+                 data-content="In college, Farhan and Raju form a great bond with Rancho due to his refreshing outlook. Years later, a bet gives them a chance to look for their long-lost friend whose existence seems rather elusive." 
+                 data-placement="right" title="3 Idiots" data-trigger="hover">
+                 3 Idiots
+                </a>
+              <td> Comedy/Drama </td>
+            </tr>
+            <tr>
+              <td> 3 </td>
+              <td> 
+                <a href="#Movies" data-toggle="popover" data-container="body"
+                 data-content="Sahir, a circus entertainer, robs a corrupt bank in Chicago in order to avenge his father's death. However, his troubles increase when Inspector Jai and Ali suspect him of the robbery." 
+                 data-placement="right" title="Dhoom 3" data-trigger="hover">
+                 Dhoom 3
+                </a>
+              <td> Action/Thriller </td>
+            </tr>
+            <tr>
+              <td> 4 </td>
+              <td> 
+                <a href="#Movies" data-toggle="popover" data-container="body"
+                 data-content="Four men join hands to date and marry the women of their dreams by changing their identities and deceiving their prospective fathers-in-law."
+                 data-placement="right" title="Housefull 2" data-trigger="hover">
+                 Housefull 2
+                </a>
+              <td> Comedy/Romance </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+<!-- messages -->
+    <div class="col-md-12 text-center p-4" style="background-color: lightskyblue" id="Aditi">
+      <h2 style="color: whitesmoke"> Happy 18th Birthday </h2>
+      <p> Dear Rahul, </p>
+      <p> Happy 18th Birthday! I'm so proud of everything you've accomplished and how great of a role model you have become for me. Even though you snitch on me all the time, you'll still always be the best brother I could ask for; You might even be better than Sid. Being at home will be so different without you as the oldest, and I know Papa is going to be much more emotional now. I don't know how you survived those four years; I know I'll be way better, but I'm thankful you are my older brother. You have been such a significant influence on me my whole life. You're the reason I do half the things I do. You're the reason I do MUN, I listen to the music that's always playing on my AirPods, and I learned how to make websites like this. I'm sad you're leaving home, but I know you'll do great in New York (at your low-tier Ivy). So make sure you don't forget to tell all your friends about how great your sister is and bring me back a Columbia hoodie (I have to brag about you too). Have an amazing birthday as an adult for the first time!
+      </p>
+      <p> Your favorite sibling, </p>
+      <p> Aditi </p>
+    </div>
+  </body>
+</html>
+
+
